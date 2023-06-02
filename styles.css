@@ -1,98 +1,99 @@
 body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-header {
-  min-width: 55px;
-  padding: 0 2rem;
-  background-color: beige;
-  position: sticky;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  top: 0;
-  left: 0;
-}
-
-a {
-  text-decoration: none;
-  color: brown;
-  font-weight: 600;
-}
-
-.logo {
-  width: 60vh;
-}
-
-.logo > img {
-  max-width: 250px;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-
-#video {
-  border-radius: 10px;
-}
-
-nav > ul {
-  width: 35vw;
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
-}
-
-li {
-  list-style: none;
-  cursor: pointer;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  gap: 1rem;
-}
-
-.main {
-  padding: 0 1.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-input[type="email"] {
-  padding: 5px;
-  outline: none;
-  background-color: aliceblue;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px gray;
-}
-
-input[type="submit"] {
-  padding: 5px;
-  background-color: aliceblue;
-  border: none;
-  box-shadow: 1px 1px 5px black;
-  color: gray;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-@media (max-width: 600px) {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  header {
+    min-width: 55px;
+    padding: 0 2rem;
+    background-color: beige;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: brown;
+    font-weight: 600;
+  }
+  
+  .logo {
+    width: 60vh;
+  }
+  
   .logo > img {
-    height: 15px;
-    width: 110px;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
   }
-
+  
+  #video {
+    border-radius: 10px;
+  }
+  
   nav > ul {
-    width: 25vh;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
   }
+  
   li {
-    font-size: 10px;
+    list-style: none;
+    cursor: pointer;
   }
-}
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 1rem;
+  }
+  
+  .main {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input[type="email"] {
+    padding: 5px;
+    outline: none;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px gray;
+  }
+  
+  input[type="submit"] {
+    padding: 5px;
+    background-color: aliceblue;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+    color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .logo > img {
+      height: 15px;
+      width: 110px;
+    }
+  
+    nav > ul {
+      width: 25vh;
+    }
+    li {
+      font-size: 10px;
+    }
+  }
+  
